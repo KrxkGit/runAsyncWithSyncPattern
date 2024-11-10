@@ -1,0 +1,13 @@
+{
+  "name": "AsyncConverter",
+  "version": "1.0.0",
+  "main": "src/Main.ts",
+  "scripts": {
+    "build": "tsc",
+    "run": "node src/Main.js",
+    "clean": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0"
+  }
+}
